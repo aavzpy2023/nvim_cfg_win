@@ -25,4 +25,7 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	" code splitting
 	Plug 'Wansmer/treesj'
 
+	"Git
+	Plug 'tpope/vim-fugitive' 
+
 call plug#end()
