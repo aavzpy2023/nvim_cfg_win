@@ -46,3 +46,9 @@ nnoremap <leader>h :vertical resize -10<cr>
 nnoremap <leader>l :vertical resize +10<cr>
 nnoremap <leader>k :resize +2<cr>
 nnoremap <leader>j :resize -2<cr>
+
+" telescope
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
