@@ -28,4 +28,13 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	"Git
 	Plug 'tpope/vim-fugitive' 
 
+	"Telescope
+	Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.x' }
+	" Telescope dependencies
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'BurntSushi/ripgrep'
+	Plug 'sharkdp/fd'
+	Plug 'nvim-lua/popup.nvim'
+
 call plug#end()
