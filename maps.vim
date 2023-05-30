@@ -36,3 +36,13 @@ nnoremap <leader>gp :Git push -u origin main
 nnoremap <leader>gb :Git branch 
 nnoremap <leader>gw :Git checkout 
 nnoremap <leader>gm :Git merge
+
+" run current file
+nnoremap <leader>x :!python %<CR>
+
+" resise windows
+nnoremap <C-left> <ESC>b
+nnoremap <leader>h :vertical resize -10<cr>
+nnoremap <leader>l :vertical resize +10<cr>
+nnoremap <leader>k :resize +2<cr>
+nnoremap <leader>j :resize -2<cr>
