@@ -27,3 +27,12 @@ nnoremap <C-b> :NvimTreeToggle<cr>
 " TreeSJ
 nnoremap <leader>ts :TSJSplit<cr>
 nnoremap <leader>tj :TSJJoin<cr>
+
+" Git
+nnoremap <leader>gs :Git status <CR>
+nnoremap <leader>ga :Git add .<CR>
+nnoremap <leader>gc :Git commit -m "
+nnoremap <leader>gp :Git push -u origin main
+nnoremap <leader>gb :Git branch 
+nnoremap <leader>gw :Git checkout 
+nnoremap <leader>gm :Git merge
