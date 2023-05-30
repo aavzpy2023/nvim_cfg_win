@@ -19,3 +19,6 @@ nnoremap <A-k> <C-w>k
 
 " save in insert mode
 inoremap <C-s> <ESC>:w<CR>a
+
+"nvim-tree
+nnoremap <C-b> :NvimTreeToggle<cr>

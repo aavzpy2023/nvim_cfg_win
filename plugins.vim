@@ -10,4 +10,8 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'norcalli/nvim-colorizer.lua'
 
+	" nvim tree
+	Plug 'nvim-tree/nvim-tree.lua'
+	Plug 'nvim-tree/nvim-web-devicons'
+
 call plug#end()
