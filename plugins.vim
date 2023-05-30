@@ -36,5 +36,8 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	Plug 'BurntSushi/ripgrep'
 	Plug 'sharkdp/fd'
 	Plug 'nvim-lua/popup.nvim'
-
+	
+	" vimspector
+	Plug 'puremourning/vimspector'
+	
 call plug#end()

@@ -4,6 +4,8 @@ so ~/AppData/local/nvim/lua-tree.lua
 so ~/AppData/local/nvim/treesitteer.lua
 so ~/AppData/local/nvim/treesj.lua
 
+so ~/AppData/local/nvim/vimspector.vim
+
 nnoremap <SPACE> <Nop>
 set colorcolumn=79
 set rnu				" relative number
