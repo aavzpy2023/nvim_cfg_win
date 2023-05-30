@@ -8,5 +8,6 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	"colorschemes
 	Plug 'morhetz/gruvbox'
 	Plug 'arcticicestudio/nord-vim'
+	Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()

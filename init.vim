@@ -16,7 +16,18 @@ set clipboard=unnamedplus	" to use the operating system clipboard
 set foldmethod=indent
 set foldlevel=99
 
+" themes
+colorscheme gruvbox "gruvbox, evening 
+let g:airline_theme='gruvbox'
+if (has("termguicolors"))
+	set termguicolors
+endif
+lua require 'colorizer'.setup()
 
+"set background=dark 
+
+" rememder status of terminal
+set hidden
 
 
 
