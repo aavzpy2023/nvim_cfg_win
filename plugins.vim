@@ -17,4 +17,12 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	" autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+	" treesitter
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	Plug 'p00f/nvim-ts-rainbow'
+	Plug 'nvim-treesitter/nvim-treesitter-refactor'
+	
+	" code splitting
+	Plug 'Wansmer/treesj'
+
 call plug#end()

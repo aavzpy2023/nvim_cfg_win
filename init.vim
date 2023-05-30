@@ -1,6 +1,8 @@
 so ~/AppData/Local/nvim/plugins.vim
 so ~/AppData/Local/nvim/maps.vim
 so ~/AppData/local/nvim/lua-tree.lua
+so ~/AppData/local/nvim/treesitteer.lua
+so ~/AppData/local/nvim/treesj.lua
 
 nnoremap <SPACE> <Nop>
 set colorcolumn=79

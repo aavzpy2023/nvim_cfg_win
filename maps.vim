@@ -6,6 +6,7 @@ nnoremap <C-w> :wq<cr>
 nnoremap <leader>ss :so ~/init.vim<cr>
 nnoremap <leader>pi :PlugInstall<cr>
 nnoremap <leader>pu :PlugUpdate<cr>
+nnoremap <leader>ur :UpdateRemotePlugins<cr>
 nnoremap // :noh<cr>
 
 
@@ -22,3 +23,7 @@ inoremap <C-s> <ESC>:w<CR>a
 
 "nvim-tree
 nnoremap <C-b> :NvimTreeToggle<cr>
+
+" TreeSJ
+nnoremap <leader>ts :TSJSplit<cr>
+nnoremap <leader>tj :TSJJoin<cr>
