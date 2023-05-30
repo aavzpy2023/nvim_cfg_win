@@ -52,3 +52,16 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+" vimspector
+nmap <leader>vw :call vimspector#AddWatch(
+nmap <leader>vv :call vimspector#Launch()<CR>
+nmap <leader>vc :call vimspector#Continue()<CR>
+nmap <leader>vo :call vimspector#StepOut()<CR>
+nmap <leader>vi :call vimspector#StepInto()<CR>
+nmap <leader>vn :call vimspector#StepOver()<CR>
+nmap <leader>vcu :call vimspector#RunToCursor()<CR>
+nmap <leader>vt :call vimspector#ToggleBreakpoint()<CR>
+nmap <leader>vl :call vimspector#ClearBreakpoints()<CR>
+nmap <leader>vr :call vimspector#Reset()<CR> 
+let g:vimspector_enable_mappings = 'HUMAN'
