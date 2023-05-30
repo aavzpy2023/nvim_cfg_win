@@ -14,4 +14,7 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	Plug 'nvim-tree/nvim-tree.lua'
 	Plug 'nvim-tree/nvim-web-devicons'
 
+	" autocomplete
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
