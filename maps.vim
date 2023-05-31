@@ -65,3 +65,20 @@ nmap <leader>vt :call vimspector#ToggleBreakpoint()<CR>
 nmap <leader>vl :call vimspector#ClearBreakpoints()<CR>
 nmap <leader>vr :call vimspector#Reset()<CR> 
 let g:vimspector_enable_mappings = 'HUMAN'
+
+"easymotion mapping
+"<leader>f{char} to move to {char}
+map  <leader>f <Plug>(easymotion-bd-f)
+nmap <leader>F <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap em <Plug>(easymotion-overwin-f2)
+
+" Move to line
+map <leader>L <Plug>(easymotion-bd-jk)
+nmap <leader>L <Plug>(easymotion-overwin-line)
+nnoremap vv <esc>v$
+
+" Move to word
+map  <leader>w <Plug>(easymotion-bd-w)
+nmap <leader>w <Plug>(easymotion-overwin-w)
