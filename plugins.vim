@@ -54,4 +54,11 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 
 	"easymotion
 	Plug 'easymotion/vim-easymotion'
+
+	"highlight code
+	Plug 'SirVer/ultisnips'
+	Plug 'honza/vim-snippets'
+	Plug 'tpope/vim-pathogen'
+	Plug 'nvie/vim-flake8'       "need pip install flake8
+
 call plug#end()
