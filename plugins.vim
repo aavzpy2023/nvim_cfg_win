@@ -39,5 +39,8 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	
 	" vimspector
 	Plug 'puremourning/vimspector'
+
+	"highlight python syntax
+	Plug 'vim-python/python-syntax'
 	
 call plug#end()
