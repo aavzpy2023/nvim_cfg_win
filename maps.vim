@@ -82,3 +82,6 @@ nnoremap vv <esc>v$
 " Move to word
 map  <leader>w <Plug>(easymotion-bd-w)
 nmap <leader>w <Plug>(easymotion-overwin-w)
+
+" flake8
+nnoremap <C-K> :call Flake8()<cr>
