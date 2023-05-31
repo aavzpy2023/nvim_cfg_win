@@ -49,4 +49,7 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	Plug 'luochen1990/rainbow' 
 	Plug 'yggdroot/indentline'
 
+	"commenter
+	Plug 'scrooloose/nerdcommenter'
+
 call plug#end()
