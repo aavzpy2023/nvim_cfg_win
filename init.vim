@@ -42,8 +42,9 @@ autocmd VimEnter * NvimTreeOpen
 " Close nvim-tree when opening a file
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NVIM_TREE_VIEW") && b:NVIM_TREE_VIEW) | q | endif
 
-let g:deoplete#enable_at_startup = 1
 let g:WorkspaceFolders='C:/Anaconda3'
 let g:python3_host_prog='C:/Anaconda3/python.exe'
+
+"highlight python syntax
 let g:python_highlight_all = 1
 
