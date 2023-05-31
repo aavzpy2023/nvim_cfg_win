@@ -52,4 +52,6 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	"commenter
 	Plug 'scrooloose/nerdcommenter'
 
+	"easymotion
+	Plug 'easymotion/vim-easymotion'
 call plug#end()
