@@ -20,6 +20,8 @@ set smartcase			" ... unless they content at least one capital letter
 set clipboard=unnamedplus	" to use the operating system clipboard
 set foldmethod=indent
 set foldlevel=99
+syntax on
+filetype plugin indent on
 
 " themes
 colorscheme gruvbox "gruvbox, evening 
