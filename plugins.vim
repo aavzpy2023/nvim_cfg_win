@@ -43,4 +43,10 @@ call plug#begin('C:\Users\andreyvz\AppData\Local\nvim\plugged\')
 	"highlight python syntax
 	Plug 'vim-python/python-syntax'
 	
+	"typing
+	Plug 'tpope/vim-surround'      "select word, space, shift+S, ()
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'luochen1990/rainbow' 
+	Plug 'yggdroot/indentline'
+
 call plug#end()
