@@ -67,11 +67,11 @@ nmap <leader>vr :call vimspector#Reset()<CR>
 let g:vimspector_enable_mappings = 'HUMAN'
 
 "easymotion mapping
-"<leader>f{char} to move to {char}
+"<leader>f{char}to move to {char}
 map  <leader>f <Plug>(easymotion-bd-f)
 nmap <leader>F <Plug>(easymotion-overwin-f)
 
-" s{char}{char} to move to {char}{char}
+" s{char}{char}to move to {char}{char}
 nmap em <Plug>(easymotion-overwin-f2)
 
 " Move to line
@@ -85,3 +85,14 @@ nmap <leader>w <Plug>(easymotion-overwin-w)
 
 " flake8
 nnoremap <C-K> :call Flake8()<cr>
+
+" fuction to remove spaces inside (), [], {}
+function Refactorbrackets()
+	execute %s/( /(/g
+	execute %s/) /)/g
+	execute %s/[ /[/g
+	execute %s/] /]/g
+	execute %s/{ /{/g
+	execute %s/} /}/g
+endfunction
+nnoremap <leader>9 :Refactorbrackets()<cr>
